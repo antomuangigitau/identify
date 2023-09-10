@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Welcome Onboard</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="name">
+        <h3 data-testid="slackUserName">Antony Mwangi</h3>
+        <img src="./images//Profile.jpeg" alt="slackDisplayImage" />
+      </div>
+      <hr />
+      <div class="current">
+        <div class="show__time__day">
+          <div>
+            <h3>Current Day of the Week:</h3>
+            <span id="currentDay" data-testid="currentDayOfTheWeek"></span>
+          </div>
+          <div>
+            <h3>Current UTC Time:</h3>
+            <span id="currentUTCTime" data-testid="currentUTCTime"></span>
+          </div>
+        </div>
+        <hr />
+        <div class="show__track__github">
+          <div>
+            <div class="just__center">
+              <h3>Track:</h3>
+              <span id="currentDay" data-testid="myTrack"
+                >Frontend Developer</span
+              >
+            </div>
+          </div>
+          <div>
+            <div class="just__center">
+              <h3>GitHub URL:</h3>
+              <a data-testid="“githubURL”" href="http://">GitHub repository</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
